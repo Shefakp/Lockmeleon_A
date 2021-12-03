@@ -1,0 +1,70 @@
+.block2 {
+  margin-top: 274px;
+}
+
+.block2-h2 {
+  position: relative;
+  font-weight: 400;
+  font-family: Fredoka One;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 44px;
+  color: #322C42;
+  padding-bottom: 42px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/catalog/plus.png);
+    background-repeat: no-repeat;
+    top: -22px;
+    right: 728px;
+    width: 22px;
+    height: 22px;
+  }
+}
+
+.block2-items {
+  display: flex;
+  position: relative;
+  padding-bottom: 49px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 395px;
+    height: 3px;
+    background: black;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.block2-item {
+  padding-right: 55px;
+}
+
+.block2-item__num {
+  font-family: Circe;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 53px;
+  color: #322C42;
+  padding-bottom: 6px;
+}
+
+.block2-item__text {
+  font-family: Circe;
+  font-weight: 400;
+  font-size: 14px;
+  color: #322C42;
+}
+
+
+.block2-p {
+  font-family: Circe;
+  font-weight: 400;
+  font-size: 14px;
+  color: #322C42;
+  padding-top: 42px;
+}

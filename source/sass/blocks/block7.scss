@@ -1,0 +1,38 @@
+.block7 {
+
+}
+
+.block7-text {
+  text-align: center;
+}
+
+.block7-h2 {
+  position: relative;
+  font-family: Fredoka One;
+  font-weight: 400;
+  font-size: 36px;
+  color: #322C42;
+  padding-bottom: 718px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/catalog/plus.png);
+    background-repeat: no-repeat;
+    top: -52px;
+    right: 552px;
+    width: 22px;
+    height: 22px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/catalog/bl7-pic.png);
+    background-repeat: no-repeat;
+    top: 46px;
+    left: -103px;
+    width: 1200px;
+    height: 800px;
+  }
+}

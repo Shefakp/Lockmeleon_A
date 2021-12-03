@@ -1,0 +1,40 @@
+.block3 {
+  position: relative;
+}
+
+.block3-pic {
+  position: absolute;
+  top: 47px;
+  left: 223px;
+}
+
+
+.block3-cloud {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 100px;
+  background: #322C42;
+  border-radius: 25px;
+  font-family: Circe;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 20px;
+  top: 194px;
+  left: 487px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/catalog/fin.png);
+    background-repeat: no-repeat;
+    top: -14px;
+    right: -49px;
+    width: 100%;
+    height: 100%;
+  }
+}

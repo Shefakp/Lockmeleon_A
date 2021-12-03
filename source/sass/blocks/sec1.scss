@@ -1,0 +1,29 @@
+.sec1 {
+  position: relative;
+  
+
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/catalog/pic1.png);
+    background-repeat: no-repeat;
+    width: 773px;
+    height: 605px;
+    top: 133px;
+    left: 0;
+    z-index: 5;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url(../../img/sprite/line1.svg);
+    background-repeat: no-repeat;
+    width: 1100px;
+    height: 590px;
+    top: 0;
+    right: -89px;
+    z-index: 1;
+  }
+}

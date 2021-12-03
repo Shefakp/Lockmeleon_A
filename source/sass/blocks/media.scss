@@ -1,0 +1,1022 @@
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+  html,
+  body,
+  section {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .wrapper {
+    max-width: 1120px;
+  }
+
+  .sec1 {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/pic1.png);
+      background-repeat: no-repeat;
+      width: 773px;
+      height: 605px;
+      top: 133px;
+      left: -55px;
+      z-index: 5;
+    }
+  }
+
+  .sec2 {
+    position: relative;
+
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/phone-hand.png);
+      background-repeat: no-repeat;
+      width: 784px;
+      height: 900px;
+      top: -115px;
+      right: -100px;
+      z-index: 12;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(../../img/sprite/line2.svg);
+      background-repeat: no-repeat;
+      width: 1100px;
+      height: 590px;
+      top: 38px;
+      left: -100px;
+      z-index: 1;
+    }
+  }
+
+  .aside2 {
+    float: right;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  html,
+  body,
+  section {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+
+  .container {
+    max-width: 992px;
+    margin: 0 auto;
+  }
+
+  .wrapper {
+    max-width: 960px;
+  }
+
+  .header {
+    width: 0%;
+  }
+
+  .sec1 {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/pic1.png);
+      background-repeat: no-repeat;
+      background-size: 70%;
+      width: 100%;
+      height: 605px;
+      top: 133px;
+      left: -85px;
+      z-index: 5;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(../../img/sprite/line1.svg);
+      background-repeat: no-repeat;
+      background-size: 70%;
+      width: 1100px;
+      height: 590px;
+      top: 0;
+      right: -360px;
+      z-index: 1;
+    }
+  }
+
+  .header {
+    width: 97%;
+  }
+
+  .sec2 {
+    position: relative;
+
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/phone-hand.png);
+      background-repeat: no-repeat;
+      background-size: 80%;
+      width: 784px;
+      height: 900px;
+      top: -115px;
+      right: -176px;
+      z-index: 12;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(../../img/sprite/line2.svg);
+      background-repeat: no-repeat;
+      background-size: 60%;
+      width: 1100px;
+      height: 590px;
+      top: 38px;
+      left: -100px;
+      z-index: 1;
+    }
+  }
+
+  .block1 {
+    padding-left: 652px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      right: 42px;
+      top: 130px;
+      background-image: url(../img/sprite/anti-ad.svg);
+      background-repeat: no-repeat;
+    }
+  }
+
+  .block5 {
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/new_pic2.png);
+      background-repeat: no-repeat;
+      background-size: 70%;
+      width: 830px;
+      height: 802px;
+      top: -67px;
+      right: -260px;
+      z-index: 999;
+    }
+  }
+
+  .block2-h2 {
+    &::after {
+      left: 380px;
+    }
+  }
+
+  .block4-heading {
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/plus.png);
+      background-repeat: no-repeat;
+      top: -48px;
+      right: 470px;
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  .block6-t {
+    &::after {
+      left: 470px;
+    }
+  }
+
+  .block6-screen {
+    margin-right: 2px;
+  }
+
+  .block7-h2 {
+    &::after {
+      left: 480px;
+    }
+
+    &::before {
+      background-size: 90%;
+      left: -55px;
+    }
+  }
+
+  .block8-text {
+    &::after {
+      left: 480px;
+    }
+  }
+
+  .aside2 {
+    float: right;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  html,
+  body,
+  section {
+    width: 100%;
+    overflow-x: hidden;
+    background-size: cover;
+  }
+
+
+  .container {
+    max-width: 991px;
+    margin: 0 auto;
+  }
+
+  .sec1 {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/pic1.png);
+      background-repeat: no-repeat;
+      background-size: 60%;
+      width: 100%;
+      height: 605px;
+      top: 133px;
+      left: -85px;
+      z-index: 5;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(../../img/sprite/line1.svg);
+      background-repeat: no-repeat;
+      background-size: 60%;
+      width: 1100px;
+      height: 590px;
+      top: 0;
+      right: -460px;
+      z-index: 1;
+    }
+  }
+
+  .header {
+    width: 95%;
+  }
+
+  .sec2 {
+    position: relative;
+
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/phone-hand.png);
+      background-repeat: no-repeat;
+      background-size: 60%;
+      width: 784px;
+      height: 900px;
+      top: -115px;
+      right: -376px;
+      z-index: 12;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(../../img/sprite/line2.svg);
+      background-repeat: no-repeat;
+      background-size: 60%;
+      width: 1100px;
+      height: 590px;
+      top: 38px;
+      left: -100px;
+      z-index: 1;
+    }
+  }
+
+  .block1 {
+    padding-left: 420px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      right: 42px;
+      top: 130px;
+      background-image: url(../img/sprite/anti-ad.svg);
+      background-repeat: no-repeat;
+    }
+  }
+
+  .block1 h2 {
+    &::after {
+      right: 0;
+    }
+  }
+
+  .block4-items {
+    width: 100%;
+  }
+
+  .block4-item {
+    width: 50%;
+  }
+
+  .block5 {
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/new_pic2.png);
+      background-repeat: no-repeat;
+      background-size: 60%;
+      width: 830px;
+      height: 802px;
+      top: 250px;
+      right: -320px;
+      z-index: 999;
+    }
+  }
+
+  .block2-h2 {
+    &::after {
+      left: 380px;
+    }
+  }
+
+  .block4-heading {
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/plus.png);
+      background-repeat: no-repeat;
+      top: -48px;
+      right: 370px;
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  .block6-t {
+    &::after {
+      left: 370px;
+    }
+  }
+
+  .block6-screen {
+    margin-right: 2px;
+  }
+
+  .block7-h2 {
+    &::after {
+      left: 370px;
+    }
+
+    &::before {
+      background-size: 70%;
+      left: -55px;
+    }
+  }
+
+  .block8-text {
+    &::after {
+      left: 370px;
+    }
+  }
+
+  .block9 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .block9-h2 {
+    &::after {
+      left: 350px;
+    }
+  }
+
+  .btn-up {
+    bottom: 136px;
+  }
+
+  .aside2 {
+    // float: right;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  html,
+  body,
+  section {
+    width: 100%;
+    overflow-x: hidden;
+    background-size: cover;
+  }
+
+
+  .container {
+    max-width: 767px;
+    margin: 0 auto;
+  }
+
+  .sec1 {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/pic1.png);
+      background-repeat: no-repeat;
+      background-size: 70%;
+      width: 100%;
+      height: 605px;
+      top: 133px;
+      left: -85px;
+      z-index: 5;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(../../img/sprite/line1.svg);
+      background-repeat: no-repeat;
+      background-size: 70%;
+      width: 1100px;
+      height: 590px;
+      top: 0;
+      right: -360px;
+      z-index: 1;
+    }
+  }
+
+  .header {
+    width: 95%;
+  }
+
+  .header-menu__list {
+    justify-content: space-around;
+    font-size: 12px;
+  }
+
+  .header-btn {
+    font-size: 16px;
+  }
+
+  .header-fixed {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .sec2 {
+    position: relative;
+    margin-bottom: 500px;
+
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/phone-hand.png);
+      background-repeat: no-repeat;
+      background-size: 60%;
+      width: 784px;
+      height: 900px;
+      top: 400px;
+      right: -325px;
+      z-index: 12;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(../../img/sprite/line2.svg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 1100px;
+      height: 590px;
+      top: 308px;
+      left: -100px;
+      z-index: 1;
+    }
+  }
+
+  .block1 {
+    padding-left: 252px;
+    padding-top: 400px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      right: 42px;
+      top: 230px;
+      background-image: url(../img/sprite/anti-ad.svg);
+      background-repeat: no-repeat;
+    }
+  }
+
+  .block3-pic {
+    left: 50px;
+  }
+
+  .block3-cloud {
+    left: 320px;
+  }
+
+  .block4-items {
+    width: 100%;
+  }
+
+  .block4-item {
+    width: 50%;
+  }
+
+  .block5 {
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/new_pic2.png);
+      background-repeat: no-repeat;
+      background-size: 50%;
+      width: 830px;
+      height: 802px;
+      top: 100pxpx;
+      right: -420px;
+      z-index: 999;
+    }
+  }
+
+  .block2-h2 {
+    &::after {
+      left: 380px;
+    }
+  }
+
+  .block4-heading {
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/plus.png);
+      background-repeat: no-repeat;
+      top: -48px;
+      right: 270px;
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  .block6-t {
+    &::after {
+      left: 270px;
+    }
+  }
+
+  .block6-screen {
+    margin-right: 2px;
+  }
+
+  .block7-h2 {
+    padding-bottom: 500px;
+
+    &::after {
+      left: 270px;
+    }
+
+    &::before {
+      background-size: 50%;
+      left: -25px;
+      top: 150px;
+
+    }
+  }
+
+  .block8-text {
+    &::after {
+      left: 270px;
+    }
+  }
+
+  .block9 {
+    width: 100%;
+    height: 100%;
+
+    &::after {
+      left: 20%;
+    }
+
+    &::before {
+      background-size: 60%;
+    }
+  }
+
+  .block9-h2 {
+    &::after {
+      left: 270px;
+    }
+  }
+
+  .block10-m {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .block10-name {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .block10-email {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .block10-question {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .footer-menu__list {
+    font-size: 12px;
+    justify-content: space-around;
+  }
+
+  .footer-btn {
+    font-size: 16px;
+  }
+
+  .btn-up {
+    bottom: 136px;
+  }
+
+  .policy {
+    background-size: cover;
+  }
+
+  .aside2 {
+    float: right;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+  html,
+  body,
+  section {
+    width: 100%;
+    overflow-x: hidden;
+    background-size: cover;
+  }
+
+
+  .container {
+    max-width: 575px;
+    margin: 0 auto;
+  }
+
+  .sec1 {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/pic1.png);
+      background-repeat: no-repeat;
+      background-size: 90%;
+      width: 100%;
+      height: 605px;
+      top: 153px;
+      left: -55px;
+      z-index: 5;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(../../img/sprite/line1.svg);
+      background-repeat: no-repeat;
+      background-size: 70%;
+      width: 1100px;
+      height: 590px;
+      top: -150px;
+      right: -360px;
+      z-index: 1;
+    }
+  }
+
+  .header {
+    width: 95%;
+  }
+
+  .header-menu__list {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 14px;
+  }
+
+  .header-menu__item {
+    padding-bottom: 5px;
+  }
+
+  .header-btn {
+    font-size: 12px;
+  }
+
+  .header-fixed {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .sec2 {
+    position: relative;
+    margin-bottom: 100px;
+
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/phone-hand.png);
+      background-repeat: no-repeat;
+      background-size: 30%;
+      width: 784px;
+      height: 900px;
+      top: -240px;
+      right: -550px;
+      z-index: 12;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(../../img/sprite/line2.svg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 1100px;
+      height: 590px;
+      top: 308px;
+      left: -100px;
+      z-index: 1;
+    }
+  }
+
+  .block1 {
+    padding-left: 0px;
+    padding-top: 500px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      right: 42px;
+      top: 350px;
+      background-image: url(../img/sprite/anti-ad.svg);
+      background-repeat: no-repeat;
+    }
+  }
+
+  .block3-pic {
+    width: 60%;
+    left: 40px;
+  }
+
+  .block3-cloud {
+    left: 170px;
+    top: 160px;
+  }
+
+  .block4 {
+    padding-top: 0;
+  }
+
+  .block4-items {
+    width: 100%;
+  }
+
+  .block4-item {
+    width: 100%;
+  }
+
+  .block5 {
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/new_pic2.png);
+      background-repeat: no-repeat;
+      background-size: 40%;
+      width: 830px;
+      height: 802px;
+      top: 350px;
+      right: -510px;
+      z-index: 999;
+    }
+  }
+
+  .block5-h {
+    &::before {
+      top: 200px;
+      left: 170px;
+    }
+  }
+
+  .block2-h2 {
+    &::after {
+      left: 200px;
+      top: 20px;
+    }
+  }
+
+  .block2-items {
+    flex-wrap: wrap;
+
+    &::after {
+      width: 100%;
+    }
+  }
+
+  .block2-item {
+    width: 100%;
+  }
+
+  .block4-heading {
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(../img/catalog/plus.png);
+      background-repeat: no-repeat;
+      top: -48px;
+      right: 165px;
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  .block6-t {
+    &::after {
+      left: 170px;
+    }
+  }
+
+  .block6-screen {
+    margin-right: 2px;
+  }
+
+  .block7-h2 {
+    padding-bottom: 300px;
+
+    &::after {
+      left: 170px;
+    }
+
+    &::before {
+      background-size: 30%;
+      left: -10px;
+      top: 250px;
+
+    }
+  }
+
+  .block8-text {
+    &::after {
+      left: 170px;
+    }
+  }
+
+  .block8-item {
+    box-sizing: border-box;
+    height: 226px;
+  }
+
+  .block8-p {
+    font-size: 12px;
+  }
+
+  .block9 {
+    width: 100%;
+    height: 100%;
+
+    &::after {
+      background-size: 50%;
+      left: 55px;
+      top: -126px;
+    }
+
+    &::before {
+      background-size: 60%;
+    }
+  }
+
+  .block9-h2 {
+    font-size: 32px;
+    &::after {
+      left: 130px;
+    }
+  }
+
+  .block9-pay {
+    width: 100%;
+    text-align: center;
+  }
+
+  .block9-button {
+    width: 200px;
+  }
+
+  .block9-btntext {
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+
+  .block10-m {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .block10-name {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .block10-email {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .block10-question {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .block10-btn {
+    margin-bottom: 100px;
+  }
+
+  .footer {
+    display: none;
+  }
+  // .footer-menu__list {
+  //   font-size: 10px;
+  //   justify-content: flex-start;
+  // }
+
+  // .footer-btn {
+  //   font-size: 14px;
+  // }
+
+  .btn-up {
+    bottom: 80px;
+    right: 20px;
+  }
+
+  .policy {
+    background-size: cover;
+  }
+
+  .poltext {
+    width: 100%;
+  }
+
+  .poltext-h1 {
+    &::after {
+      right: 140px;
+    }
+  }
+
+  .block10-btn {
+    width: 200px;
+    text-align: center;
+  }
+
+  .aside2 {
+    float: right;
+  }
+
+}

@@ -1,0 +1,67 @@
+.policy {
+  background-image: url(../../img/catalog/policy_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header-nf {
+  position: static;
+}
+
+.sec1_2 {
+  &::after {
+    display: none;
+  }
+
+  &::before {
+    display: none;
+  }
+}
+
+.poltext {
+  padding-top: 158px;
+  width: 584px;
+  margin: 0 auto;
+}
+
+.poltext-h1 {
+  position: relative;
+  text-align: center;
+  padding-bottom: 34px;
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  color: #322C42;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/catalog/plus.png);
+    background-repeat: no-repeat;
+    top: -40px;
+    right: 270px;
+    width: 22px;
+    height: 22px;
+  }
+}
+
+.poltext-p {
+  font-family: Circe;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #322C42;
+  padding-bottom: 20px;
+}
+
+
+.poltext-h2 {
+  font-family: Circe;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #080A17;
+  padding-bottom: 20px;
+}

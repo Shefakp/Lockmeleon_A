@@ -1,0 +1,70 @@
+.block4 {
+  margin-top: 315px;
+  padding-bottom: 129px;
+}
+
+.block4-h2 {
+  text-align: center;
+  padding-bottom: 76px;
+}
+
+.block4-h3 {
+  font-family: Circe;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #080A17;
+  padding-bottom: 22px;
+}
+
+.block4-p {
+  font-family: Circe;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #322C42;
+  padding-bottom: 41px;
+}
+
+.block4-heading {
+  position: relative;
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #322C42;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/catalog/plus.png);
+    background-repeat: no-repeat;
+    top: -48px;
+    right: 551px;
+    width: 22px;
+    height: 22px;
+  }
+
+}
+
+.block4-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 934px;
+  margin: 0 auto;
+}
+
+.block4-item {
+  display: flex;
+}
+
+.block4-text {
+  width: 318px;
+}
+
+.block4-img {
+  padding-right: 38px;
+}

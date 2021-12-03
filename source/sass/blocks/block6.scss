@@ -1,0 +1,36 @@
+.block6-t {
+  position: relative;
+  text-align: center;
+  padding-bottom: 65px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/catalog/plus.png);
+    background-repeat: no-repeat;
+    top: -42px;
+    right: 552px;
+    width: 22px;
+    height: 22px;
+  }
+}
+
+.block6-h2 {
+  font-family: Fredoka One;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #322C42;
+}
+
+.block6-screens {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 149px;
+  z-index: 999;
+}
+
+.block6-screen {
+  z-index: 2;
+  
+}

@@ -1,0 +1,23 @@
+.btn-up {
+  position: fixed;
+  right: 58px;
+  bottom: 236px;
+  width: 54px;
+  height: 54px;
+  background: #322C42;
+  border-radius: 50px;
+  z-index: 999;
+  display: none;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    background-image: url(../img/sprite/arrow-up.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 40px;
+    z-index: 999;
+  }
+}
